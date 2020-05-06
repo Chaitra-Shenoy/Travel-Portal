@@ -8,7 +8,7 @@ FOR THE WEBSITE(Front-end)
 
 FOR THE DATABASE (Back-end)
 1. Create a folder called travels, move all the files with the extension .frm,.ibd,.opt
-2. Move this folder to mysql in Xampp 
+2. Move this folder to mysql->data in Xampp 
 
 HTML FILES
 ->index
@@ -16,9 +16,12 @@ HTML FILES
 ->booking
 ->check
 ->NextBooking
+->admin-flight_confirmation
 
 PHP FILES
 ->confirm
 ->flight-available
 ->help
 ->result
+->admin-login
+->admin-flights
