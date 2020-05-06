@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html,body
+{
+    height:100%;
+    width:100%;
+    font-family: 'Poppins',sans-serif;
+    color:#222;
+    overflow-x: hidden;
+}
+/***********************************************************************************************************************************************************************/
+/*Navbar and Logo*/
+header
+{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../images/wp2574285.jpg");
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+}
+.logo-img
+{
+    height:100px;
+    float:left;
+    margin-left:60px;
+    margin-top:25px;
+}
+
+.navs
+{
+    margin-left:400px;
+    list-style: none;
+    margin-top: 25px;
+    float:right;
+}
+
+.navs li
+{
+    display:inline-block;
+    margin-left:55px;
+    margin-top:10px;
+}
+
+.navs li a
+{
+    color:#fff;
+    text-decoration: none;
+    border-bottom:1px solid #fff;
+    padding:5px;
+    transform:border-bottom 0.2s;
+}
+
+section
+{
+    margin:20px 20px;
+}
+
+/***********************************************************************************************************************************************************************/
+/*Customer Testimonials*/
+.test
+{
+    margin-bottom:10px;
+    padding:10px 10px;
+    color:rgb(69, 4, 71);
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline ;
+}
+
+.info
+{
+    border:1.5px solid rgba(69,4,45) ;
+    margin-top:15px;
+    margin-bottom:20px;
+}
+
+.back
+{
+    background: #fff;
+}
+
+/***********************************************************************************************************************************************************************/
+/*Associated Airlines*/
+
+section
+{
+    margin:0 0;
+}
+
+.air
+{
+    height:150px;
+    width:200px;
+    margin-bottom:20px;
+
+}
+.air1
+{
+    color:rgba(69,4,45);
+}
+
+.icon 
+{
+    height:100px;
+}
+
+/***********************************************************************************************************************************************************************/
+/*Footer*/
+.help
+{
+    margin-top:25px;
+    text-align: center;
+}
+.help1
+{
+    margin:0 0;
+    border: 1px solid #000;
+}
+
+.phone-img
+{
+    margin-bottom:15px;
+    margin-top:15px;
+}
+.email
+{
+    margin-top:50px;
+}
+
+/***********************************************************************************************************************************************************************/
+/*NAVBAR FOR OTHER PAGES*/
+.nav1
+{
+    margin-left:550px;
+    list-style: none;
+    margin-top: 25px;
+    float:right;
+}
+
+.nav1 li
+{
+    display:inline-block;
+    margin-left:55px;
+    margin-top:10px;
+}
+
+.nav1 li a
+{
+    color:#fff;
+    text-decoration: none;
+    border-bottom:1px solid #fff;
+    padding:5px;
+    transform:border-bottom 0.2s;
+}
+
+.main-nav
+{
+    padding:10px 10px;
+    background: black;
+    height:100px;
+}
+
+.logo-img1
+{
+    height:50px;
+    float:left;
+    margin-left:60px;
+    margin-top:20px;
+}
+
+/***********************************************************************************************************************************************************************/
+/*HELP FORM : HELP PAGE */
+.form-help
+{
+    margin : 25px 25px;
+}
+
+.form-body
+{
+    
+    font-size: smaller;
+}
+
+.acc-body
+{
+    margin-left:10px;
+}
+
+.icon
+{
+    margin-left:10px;
+}
+
+/********************************************************************************************************************************************************************************/
+/*BOOKINGS*/
+.drop
+{
+    margin-top:95px;
+}
+.button-submit
+{
+    margin-bottom:20px;
+}
+.bookings
+{
+    margin-top:15px;
+}
+
+.adjust
+{
+    height:175px;
+    width:175px;
+    margin:5px 5px;
+    padding:2px 2px;
+}
+
+/***********************************************************************************************************************************
+***************************************NEXT BOOKING PAGE***************************************************************************/
+.booking-process
+{
+    margin-top:100px;
+    margin-bottom:20px;
+    margin-right:40px;
+}
+.book
+{
+    margin-top:30px;
+}
+.next-button
+{
+    margin-top:20px;
+    text-align: center;
+}
+/************************************************************************************************************************************
+*******************************FLIGHT AVAILABLE PAGE *******************************************************************************/
