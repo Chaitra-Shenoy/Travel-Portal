@@ -119,7 +119,7 @@
 
             $sql1="SELECT flight_code,from_source,to_dest,arrival_time,departure_time,date_of_flight from flight_info INNER JOIN
                 airline_info on flight_info.a_code=airline_info.a_code and flight_info.from_source='$source' and 
-                flight_info.to_dest='$dest' and airline_info.a_name='$air1' and flight_info.date_of_flight> CURDATE();";
+                flight_info.to_dest='$dest' and airline_info.a_name='$air1' and flight_info.date_of_flight> CURDATE() and flight_info.seats_available>0;";
 
             $result=mysqli_query($con,$sql1);
 
